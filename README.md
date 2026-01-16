@@ -1,11 +1,3 @@
-# Trading Analytics Application
-
-A comprehensive real-time trading analytics application with data ingestion, storage, analytics, and interactive visualization.
-
-### Architecture Overview
-
-![Architecture Diagram](Main.drawio.svg)
-
 ## Detail Description
 
 - **Backend**: Python FastAPI (real-time data ingestion, analytics, storage) - **Python only, no NestJS**
@@ -160,7 +152,7 @@ Key endpoints:
 - `GET /export/csv` - Export data as CSV
 - `POST /upload/ohlc` - Upload OHLC data (optional)
 
-See full API documentation at http://localhost:8000/docs
+
 
 ## Technologies
 
